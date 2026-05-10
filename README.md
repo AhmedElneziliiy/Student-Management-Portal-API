@@ -2,10 +2,6 @@
 
 A **RESTful ASP.NET Core API** for managing student records — including personal details, addresses, gender classification, and profile image storage.
 
-## What it does
-
-The backend of the Student Management Portal. Provides CRUD endpoints for student records with full address and gender data. Supports image upload for student profile photos. Uses AutoMapper with custom AfterMaps for clean model conversion.
-
 ## Tech Stack
 
 - **ASP.NET Core Web API** (.NET)
@@ -35,14 +31,8 @@ The backend of the Student Management Portal. Provides CRUD endpoints for studen
 
 ## Getting Started
 
-1. Set your SQL Server connection string in `appsettings.json`.
-2. Apply migrations:
-   ```bash
-   dotnet ef database update
-   ```
-3. Run the API:
-   ```bash
-   dotnet run
-   ```
+1. Set connection string in `appsettings.json`.
+2. Apply migrations: `dotnet ef database update`
+3. Run the API: `dotnet run`
 
-> The Angular frontend is in the [Student-Management-Portal-UI](https://github.com/AhmedElneziliiy/Student-Management-Portal-UI) repo.
+> The Angular frontend is in [Student-Management-Portal-UI](https://github.com/AhmedElneziliiy/Student-Management-Portal-UI).
